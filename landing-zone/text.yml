@@ -6,9 +6,9 @@ scenes:
     duration: 2
   - image: superluminar.png
     narration: >
-      <speak>In diesem Tutorial zeigen wir euch, wie ihr mit <lang xml:lang="en-US">AWS Landing Zone</lang> zeitsparend neue <lang xml:lang="en-US">AWS Accounts</lang> anlegen koennt.
+      <ssml>In diesem Tutorial zeigen wir euch, wie ihr mit <lang xml:lang="en-US">AWS Landing Zone</lang> zeitsparend neue <lang xml:lang="en-US">AWS Accounts</lang> anlegen koennt.
       Stellt euch vor, ein neues Team soll starten und schnellstmoeglich ein MVP am Markt testen.
-      Bei <lang xml:lang="en-US">AWS</lang> hat es sich bewaehrt, Produkt-Vertikalen in jeweilige <lang xml:lang="en-US">AWS Accounts</lang> einzuteilen. Mit <lang xml:lang="en-US">AWS Landing Zone</lang> wird dies zum Kinderspiel.</speak>
+      Bei <lang xml:lang="en-US">AWS</lang> hat es sich bewaehrt, Produkt-Vertikalen in jeweilige <lang xml:lang="en-US">AWS Accounts</lang> einzuteilen. Mit <lang xml:lang="en-US">AWS Landing Zone</lang> wird dies zum Kinderspiel.</ssml>
   - slide: |
       # AWS Landing Zone 
       - Ein erweiterbarer Startpunkt in AWS
