@@ -1,0 +1,34 @@
+resourceDir: resources
+size: 720p
+scenes:
+  - image: superluminar.png
+    duration: 2
+  - image: superluminar.png
+    narration: >
+      In diesem Tutorial zeigen wir euch, wie ihr mit <lang xml:lang="en-US">AWS Landing Zone</lang> zeitsparend neue <lang xml:lang="en-US">AWS Accounts</lang> anlegen koennt. 
+      Stellt euch vor, ein neues Team soll starten und schnellstmoeglich ein MVP am Markt testen.
+      Bei <lang xml:lang="en-US">AWS</lang> hat es sich bewaehrt, Produkt-Vertikalen in jeweilige <lang xml:lang="en-US">AWS Accounts</lang> einzuteilen. Mit <lang xml:lang="en-US">AWS Landing Zone</lang> wird dies zum Kinderspiel.
+  - slide: |
+      # AWS Landing Zone 
+      - Ein erweiterbarer Startpunkt in AWS
+      - Zeitersparnis beim Aufsetzen von grundlegender AWS Infrastruktur
+      - Vorkonfigurierte sichere Best Practise Implementierung eines Multi Account Setups.
+    narration: >
+      AWS Landing Zone bietet einen vorkonfigurierten Startpunkt in AWS. Die vollautomatisierte Loesung rollt grundlegende Best Practises aus, dadurch kann man schneller starten.
+  - image: landing-zone-accounts.png
+    narration: >
+      So ist es eine Best Practise, dass man separate Accounts anlegt, zum Beispiel fuer zentrales Audit-Logging.
+      Hier seht ihr eine Uebersicht von grundlegenden AWS Accounts, die Landing Zone anlegt und verwaltet: Master , Logging, Security, Shared services.
+  - video: service-catalog-1.mov
+    narration: >
+      Zurueck zum Beispiel. Das Team soll nun einen eigenen AWS Account bekommen.
+      Ist AWS Landing Zone in eurer Organization installiert, so passiert das Anlegen neuer Accounts ueber ein Produkt im sogenannten "Service Catalog".
+      Jetzt klickt ihr auf "Products List", und waehlt das "AWS-Landing-Zone-Account-Vending-Machine" Produkt aus
+      Nun klickt ihr auf "Launch Product".
+      Jetzt gebt ihr dem Account einen Namen, zum Beispiel "Team Awesome MVP" und drueckt auf "next".
+
+
+
+      
+
+
