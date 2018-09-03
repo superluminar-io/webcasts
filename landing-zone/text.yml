@@ -19,7 +19,7 @@ scenes:
     narration: >
       So ist es eine Best Practise, dass man separate Accounts anlegt, zum Beispiel fuer zentrales Audit-Logging.
       Hier seht ihr eine Uebersicht von grundlegenden AWS Accounts, die Landing Zone anlegt und verwaltet: Master , Logging, Security, Shared services.
-  - video: service-catalog-1.mov
+  - video: service-catalog.mov
     narration: >
       Zurueck zum Beispiel. Das Team soll nun einen eigenen AWS Account bekommen.
       Ist AWS Landing Zone in eurer Organization installiert, so passiert das Anlegen neuer Accounts ueber ein Produkt im sogenannten "Service Catalog".
