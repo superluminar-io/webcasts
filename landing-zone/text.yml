@@ -26,10 +26,9 @@ scenes:
       Ist AWS Landing Zone in eurer Organization installiert, so passiert das Anlegen neuer Accounts ueber ein Produkt im sogenannten "Service Catalog".
   - video: service-catalog.mov
     narration: >
-      Öffnet den "Service Catalog" in der AWS Konsole. 
-      Jetzt klickt ihr auf "Products List", und waehlt das "AWS-Landing-Zone-Account-Vending-Machine" Produkt aus
+      Öffnet den "Service Catalog" und klickt auf "Products List". Wählt das "AWS-Landing-Zone-Account-Vending-Machine" Produkt aus.
       Nun klickt ihr auf "Launch Product".
-      Jetzt gebt ihr dem Account einen Namen, zum Beispiel "Team Awesome MVP" und drueckt auf "next".
+      Gebt dem Account einen Namen, zum Beispiel "Team Awesome MVP" und drückt auf "next".
 
 
 
