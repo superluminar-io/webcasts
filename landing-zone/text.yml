@@ -20,10 +20,13 @@ scenes:
     narration: >
       Hier seht ihr die Architektur der AWS Landing Zone. Landing Zone legt zunächst 4 Accounts an: 
       einen Organizations-Account, dieser verwaltet die Konfiguration, einen Shared Services Account, einen Logging Account für zentralisiertes Logging und einen Security Account für Auditing und Compliance.
-  - video: service-catalog.mov
+  - image: service-catalog.jpg
     narration: >
       Zurueck zum Beispiel. Das Team soll nun einen eigenen AWS Account bekommen.
       Ist AWS Landing Zone in eurer Organization installiert, so passiert das Anlegen neuer Accounts ueber ein Produkt im sogenannten "Service Catalog".
+  - video: service-catalog.mov
+    narration: >
+      Öffnet den "Service Catalog" in der AWS Konsole. 
       Jetzt klickt ihr auf "Products List", und waehlt das "AWS-Landing-Zone-Account-Vending-Machine" Produkt aus
       Nun klickt ihr auf "Launch Product".
       Jetzt gebt ihr dem Account einen Namen, zum Beispiel "Team Awesome MVP" und drueckt auf "next".
