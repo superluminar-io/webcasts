@@ -18,8 +18,8 @@ scenes:
       AWS Landing Zone bietet einen vorkonfigurierten Startpunkt in AWS. Die vollautomatisierte Loesung rollt grundlegende Best Practises aus, dadurch kann man schneller starten.
   - image: landing-zone-accounts.png
     narration: >
-      So ist es eine Best Practise, dass man separate Accounts anlegt, zum Beispiel fuer zentrales Audit-Logging.
-      Hier seht ihr eine Uebersicht von grundlegenden AWS Accounts, die Landing Zone anlegt und verwaltet: Master , Logging, Security, Shared services.
+      Hier seht ihr die Architektur der AWS Landing Zone. Landing Zone legt zunächst 4 Accounts an: 
+      einen Organizations-Account, dieser verwaltet die Konfiguration, einen Shared Services Account, einen Logging Account für zentralisiertes Logging und einen Security Account für Auditing und Compliance.
   - video: service-catalog.mov
     narration: >
       Zurueck zum Beispiel. Das Team soll nun einen eigenen AWS Account bekommen.
