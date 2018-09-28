@@ -43,9 +43,10 @@ scenes:
   - image: parameters.png
     narration: >
       Jetzt öffnet sich ein Formular wo es verschiedene Parameter auszufüllen gilt.
+      Hier muss der Account Name noch einmal eingegeben werden, so wie eine E-Mail-Adresse für den neuen Account.
   - image: parameters1.png
     narration: >
-      Hier muss der Account Name noch einmal eingegeben werden, so wie eine E-Mail-Adresse für den neuen Account. Weiterhin ordnet eine Orgnizational Unit zu.
+      Ordnet eine Organization Unit zu. Wählt hier "applications".
   - image: parameters2.png
     narration: >
       Unter "Network Information" koennt ihr noch einstellen, ob der neue Account eine VPC bekommen soll.
