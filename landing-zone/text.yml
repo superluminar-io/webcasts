@@ -1,6 +1,9 @@
 voice: Monika
 resourceDir: resources
 size: 720p
+background:
+    audio: soundtrack.mp3 
+    volume: 0.3
 scenes:
   - image: superluminar.png
     duration: 2
