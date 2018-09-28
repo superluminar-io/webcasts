@@ -86,7 +86,7 @@ scenes:
       Nach ca. 5 Minuten ist der neue Account einsatzbereit, was ihr euch in AWS Organizations anschauen koennt.
   - image: org-console.png
     narration: >
-    Öffnet Organizations in der Konsole.
+      Öffnet Organizations in der Konsole.
   - image: org-overview.png
     narration: >
-    Hier seht ihr nun unseren neuen Account. 
+      Hier seht ihr nun unseren neuen Account. 
