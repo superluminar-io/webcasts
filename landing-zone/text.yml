@@ -113,6 +113,22 @@ scenes:
   - image: sso-done.png
     narration: >
       Fertig. Jetzt können wir uns einloggen.
-      
+  - image: sso-login.png
+    narration: >
+      Nun koennen sich User der eben verknuepften Gruppe anmelden und den neu erzeugten AWS Account nutzen.
+      Dafuer gehen Sie auf die AWS SSO Anmeldeseite und geben ihre Zugangsdaten ein.
+  - image: sso-after-login.png
+    narration: >
+      Nach dem erfolgten Login klicken sie auf "AWS Account".
+  - image: sso-unfolded.png
+    narration: >
+      Dort erscheint der neue AWS Account.
+  - image: sso-unfolded-links.png
+    narration: >
+      Nach dem Klick auf den Account gibt es jetzt einen Link zur AWS Management Console.
+  - image: sso-logged-in.png
+    narration: >
+      Fertig. Wir sind drin.
+
 
 
