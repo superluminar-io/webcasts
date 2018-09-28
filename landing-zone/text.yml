@@ -17,18 +17,7 @@ scenes:
       AWS Landing Zone bietet einen vorkonfigurierten Startpunkt in AWS. Die vollautomatisierte Loesung rollt grundlegende Best Practises aus, dadurch kann man schneller starten.
   - image: landing-zone-accounts.png
     narration: >
-      Hier seht ihr die Architektur der AWS Landing Zone. Landing Zone legt zunächst 4 Accounts an.
-  - image: landing-zone-accounts.png
-    callout:
-      type: rectangle
-      left: 83
-      top: 0
-      right: 605
-      bottom: 259
-    narration: >
-      einen Organizations-Account, dieser verwaltet die Konfiguration
-  - image: landing-zone-accounts.png
-    narration: >
+      Hier seht ihr die Architektur der AWS Landing Zone. Landing Zone legt zunächst 4 Accounts an:
       einen Organizations-Account, dieser verwaltet die Konfiguration, einen Shared Services Account, einen Logging Account für zentralisiertes Logging und einen Security Account für Auditing und Compliance.
   - image: console.png
     narration: >
