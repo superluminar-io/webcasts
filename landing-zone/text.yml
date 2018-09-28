@@ -9,7 +9,7 @@ scenes:
       In diesem Tutorial zeigen wir euch, wie ihr mit AWS Landing Zone zeitsparend neue AWS Accounts anlegen koennt.
       Bei AWS hat es sich bewaehrt, Produkt-Vertikalen in jeweilige AWS Accounts einzuteilen. Mit AWS Landing Zone wird dies zum Kinderspiel.
   - slide: |
-      # AWS Landing Zone 
+      # AWS Landing Zone
       - Ein erweiterbarer Startpunkt in AWS
       - Zeitersparnis beim Aufsetzen von grundlegender AWS Infrastruktur
       - Vorkonfigurierte sichere Best Practise Implementierung eines Multi Account Setups.
@@ -17,7 +17,7 @@ scenes:
       AWS Landing Zone bietet einen vorkonfigurierten Startpunkt in AWS. Die vollautomatisierte Loesung rollt grundlegende Best Practises aus, dadurch kann man schneller starten.
   - image: landing-zone-accounts.png
     narration: >
-      Hier seht ihr die Architektur der AWS Landing Zone. Landing Zone legt zunächst 4 Accounts an: 
+      Hier seht ihr die Architektur der AWS Landing Zone. Landing Zone legt zunächst 4 Accounts an:
       einen Organizations-Account, dieser verwaltet die Konfiguration, einen Shared Services Account, einen Logging Account für zentralisiertes Logging und einen Security Account für Auditing und Compliance.
   - image: console.png
     narration: >
@@ -26,24 +26,39 @@ scenes:
   - image: service-catalog.png
     narration: >
       Das Anlegen neuer Accounts erfolgt ueber ein Produkt im sogenannten "Service Catalog".
-  - image: product-list.png 
+  - image: product-list.png
     narration: >
       Klickt auf "Products List".
-  - image: product-list2.png 
+  - image: product-list2.png
     narration: >
       Wählt das "AWS-Landing-Zone-Account-Vending-Machine" Produkt aus.
-  - image: launch-product.png 
+  - image: launch-product.png
     narration: >
       Nun klickt ihr auf "Launch Product".
-  - image: launch-product-form.png 
+  - image: launch-product-form.png
     narration: >
       Wählt unten die Radiobox aus. Gebt dem Account einen Namen, zum Beispiel "team-awesome-mvp" und drückt auf "next".
   - image: parameters.png
     narration: >
       Jetzt öffnet sich ein Formular wo es verschiedene Parameter auszufüllen gilt.
+  - image: parameters1.png
+    narration: >
       Im naechsten Schritt muss der Account Name noch einmal eingegeben werden, plus eine E-Mail-Adresse fuer den neuen Account. Weiterhin ordnet eine Orgnizational Unit zu.
+  - image: parameters2.png
+    narration: >
       Unter "Network Information" koennt ihr noch einstellen, ob der neue Account eine VPC bekommen soll.
-      Nachdem ihr alle Einstllungen fuer den neuen Account vorgenommen habt, klickt ihr noch mehrmals auf "Next", bis "Launch" drueckt.
+  - image: parameters3.png
+    narration: >
+      Klickt jetzt auf "Next".
+  - image: tags.png
+    narration: >
+      Optional koennen hier noch Tags vergeben werden.
+  - image: notifications.png
+    narration: >
+      Und Notifications.
+  - image: launch.png
+    narration: >
+      Hier koennt ihr die bisherigen Einstellungen noch einmal ueberpruefen, klickt jetzt auf "Launch".
       Es wird jetzt durch den Service Catalog ein neuer CloudFormation Stack erstellt. Das heisst pro AWS Account, der ueber Landing Zone erstellt wurde, gibt es einen CloudFormation Stack im Master Account.
       Nun koennt ihr auf den Stack klicken, um zu sehen, was passiert. Technisch werden nun
-      Nach ca. 5 Minuten ist der neue Account einsatzbereit.
+      Nach ca. 5 Minuten ist der neue Account einsatzbereit, was ihr euch in AWS Organizations anschauen koennt.
