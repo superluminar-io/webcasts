@@ -81,4 +81,38 @@ scenes:
       Öffnet Organizations in der Konsole.
   - image: org-overview.png
     narration: >
-      Hier seht ihr nun unseren neuen Account. 
+      Hier seht ihr nun unseren neuen Account. Toll. Jetzt zeigen wir Euch wie wir uns in den Account einloggen.
+  - image: sso-console.png
+    narration: >
+      Öffnet SSO in der Konsole.
+  - image: sso-overview.png
+    narration: >
+      Wählt AWS Accounts aus.
+  - image: sso-list.png
+    narration: >
+      Hier wählt ihr den neuen Account in der Liste aus.
+  - image: sso-details.png
+    narration: >
+      Jetzt klickt auf "Assign users" um Nutzer bzw Gruppen hinzuzufügen.
+  - image: sso-assign.png
+    narration: >
+      Hier suchen wir nach einer Gruppe. 
+  - image: sso-assign.png
+    narration: >
+      Hier suchen wir nach einer Gruppe. 
+  - image: sso-assign1.png
+    narration: >
+      Wir wählen unsere Gruppe aus. Als nächstes müssen wir noch Berechtigungen hinzufügen. 
+  - image: sso-permissions.png
+    narration: >
+      Hier wählen wir "AdministratorAccess" um Mitgliedern aus der zuvor gewählten Gruppe Administratorzugriff auf den neuen Account zu gewären.
+  - image: sso-configuring.png
+    narration: |
+      Kurz warten.
+      (pause: 2)
+  - image: sso-done.png
+    narration: >
+      Fertig. Jetzt können wir uns einloggen.
+      
+
+
