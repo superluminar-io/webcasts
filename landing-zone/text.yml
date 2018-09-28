@@ -27,7 +27,7 @@ scenes:
   - image: service-catalog.png
     narration: >
       Öffnet den "Service Catalog"
-  - image: product-list.png 
+  - image: product-list.png
     narration: >
       Klickt auf "Products List".
   - image: product-list2.png
@@ -61,6 +61,15 @@ scenes:
   - image: launch.png
     narration: >
       Hier koennt ihr die bisherigen Einstellungen noch einmal ueberpruefen, klickt jetzt auf "Launch".
-      Es wird jetzt durch den Service Catalog ein neuer CloudFormation Stack erstellt. Das heisst pro AWS Account, der ueber Landing Zone erstellt wurde, gibt es einen CloudFormation Stack im Master Account.
-      Nun koennt ihr auf den Stack klicken, um zu sehen, was passiert. Technisch werden nun
+  - image: post-launch.png
+    narration: >
+      Jetzt wird der neue Account erstellt. Dies erfolgt mittels eines CloudFormation Stacks.
+  - image: cfn-console.png
+    narration: >
+      Oeffnet CloudFormation ueber die AWS Console.
+  - image: cfn-overview.png
+    narration: >
+      Hier seht ihr bereits den Stack, der den neuen AWS Account anlegt. Ihr koennt draufklicken, um euch die Details anzuzeigen.
+  - image: cfn-stack.png
+    narration: >
       Nach ca. 5 Minuten ist der neue Account einsatzbereit, was ihr euch in AWS Organizations anschauen koennt.
