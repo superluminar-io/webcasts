@@ -3,7 +3,7 @@ resourceDir: resources
 size: 720p
 background:
     audio: soundtrack.mp3 
-    volume: 0.3
+    volume: 0.2
 scenes:
   - image: superluminar.png
     duration: 2
