@@ -44,3 +44,9 @@ scenes:
   - image: parameters.png
     narration: >
       Jetzt öffnet sich ein Formular wo es verschiedene Parameter auszufüllen gilt.
+      Im naechsten Schritt muss der Account Name noch einmal eingegeben werden, plus eine E-Mail-Adresse fuer den neuen Account. Weiterhin ordnet eine Orgnizational Unit zu.
+      Unter "Network Information" koennt ihr noch einstellen, ob der neue Account eine VPC bekommen soll.
+      Nachdem ihr alle Einstllungen fuer den neuen Account vorgenommen habt, klickt ihr noch mehrmals auf "Next", bis "Launch" drueckt.
+      Es wird jetzt durch den Service Catalog ein neuer CloudFormation Stack erstellt. Das heisst pro AWS Account, der ueber Landing Zone erstellt wurde, gibt es einen CloudFormation Stack im Master Account.
+      Nun koennt ihr auf den Stack klicken, um zu sehen, was passiert. Technisch werden nun
+      Nach ca. 5 Minuten ist der neue Account einsatzbereit.
