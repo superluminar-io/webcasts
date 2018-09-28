@@ -23,22 +23,19 @@ scenes:
     narration: >
       Stellt euch vor, ein neues Team soll starten und schnellstmoeglich ein MVP am Markt testen.
       Das Team soll nun einen eigenen AWS Account bekommen.
-      Das Anlegen neuer Accounts ueber ein Produkt im sogenannten "Service Catalog".
   - image: service-catalog.png
     narration: >
       Das Anlegen neuer Accounts erfolgt ueber ein Produkt im sogenannten "Service Catalog".
   - image: product-list.png 
     narration: >
-      Klickt auf "Products List". Wählt das "AWS-Landing-Zone-Account-Vending-Machine" Produkt aus.
-      Nun klickt ihr auf "Launch Product".
-      Gebt dem Account einen Namen, zum Beispiel "Team Awesome MVP" und drückt auf "next".
+      Klickt auf "Products List".
   - image: product-list2.png 
     narration: >
       Wählt das "AWS-Landing-Zone-Account-Vending-Machine" Produkt aus.
   - image: launch-product.png 
     narration: >
       Nun klickt ihr auf "Launch Product".
-  - image: launch-product.png 
+  - image: launch-product-form.png 
     narration: >
       Wählt unten die Radiobox aus. Gebt dem Account einen Namen, zum Beispiel "team-awesome-mvp" und drückt auf "next".
   - image: parameters.png
