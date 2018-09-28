@@ -2,7 +2,7 @@ voice: Monika
 resourceDir: resources
 size: 720p
 background:
-    audio: soundtrack.mp3 
+    audio: soundtrack.mp3
     volume: 0.2
 scenes:
   - image: superluminar.png
@@ -96,13 +96,13 @@ scenes:
       Jetzt klickt auf "Assign users" um Nutzer bzw Gruppen hinzuzufügen.
   - image: sso-assign.png
     narration: >
-      Hier suchen wir nach einer Gruppe. 
+      Hier suchen wir nach einer Gruppe.
   - image: sso-assign.png
     narration: >
-      Hier suchen wir nach einer Gruppe. 
+      Hier suchen wir nach einer Gruppe.
   - image: sso-assign1.png
     narration: >
-      Wir wählen unsere Gruppe aus. Als nächstes müssen wir noch Berechtigungen hinzufügen. 
+      Wir wählen unsere Gruppe aus. Als nächstes müssen wir noch Berechtigungen hinzufügen.
   - image: sso-permissions.png
     narration: >
       Hier wählen wir "AdministratorAccess" um Mitgliedern aus der zuvor gewählten Gruppe Administratorzugriff auf den neuen Account zu gewären.
