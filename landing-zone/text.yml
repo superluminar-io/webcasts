@@ -23,10 +23,8 @@ scenes:
     narration: >
       Stellt euch vor, ein neues Team soll starten und schnellstmoeglich ein MVP am Markt testen.
       Das Team soll nun einen eigenen AWS Account bekommen.
-  - image: service-catalog.png
-    narration: >
       Das Anlegen neuer Accounts erfolgt ueber ein Produkt im sogenannten "Service Catalog".
-  - image: product-list.png
+  - image: service-catalog.png
     narration: >
       Öffnet den "Service Catalog"
   - image: product-list.png 
@@ -44,15 +42,15 @@ scenes:
   - image: parameters.png
     narration: >
       Jetzt öffnet sich ein Formular wo es verschiedene Parameter auszufüllen gilt.
-      Hier muss der Account Name noch einmal eingegeben werden, so wie eine E-Mail-Adresse für den neuen Account.
   - image: parameters1.png
     narration: >
-      Ordnet eine Organization Unit zu. Wählt hier "applications".
+      Hier muss der Account Name noch einmal eingegeben werden, so wie eine E-Mail-Adresse für den neuen Account.
   - image: parameters2.png
     narration: >
-      Unter "Network Information" koennt ihr noch einstellen, ob der neue Account eine VPC bekommen soll.
+      Ordnet eine Organization Unit zu. Wählt hier "applications".
   - image: parameters3.png
     narration: >
+      Unter "Network Information" koennt ihr noch einstellen, ob der neue Account eine VPC bekommen soll.
       Klickt jetzt auf "Next".
   - image: tags.png
     narration: >
