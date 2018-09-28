@@ -7,7 +7,6 @@ scenes:
   - image: superluminar.png
     narration: >
       In diesem Tutorial zeigen wir euch, wie ihr mit AWS Landing Zone zeitsparend neue AWS Accounts anlegen koennt.
-      Stellt euch vor, ein neues Team soll starten und schnellstmoeglich ein MVP am Markt testen.
       Bei AWS hat es sich bewaehrt, Produkt-Vertikalen in jeweilige AWS Accounts einzuteilen. Mit AWS Landing Zone wird dies zum Kinderspiel.
   - slide: |
       # AWS Landing Zone 
@@ -20,18 +19,28 @@ scenes:
     narration: >
       Hier seht ihr die Architektur der AWS Landing Zone. Landing Zone legt zunächst 4 Accounts an: 
       einen Organizations-Account, dieser verwaltet die Konfiguration, einen Shared Services Account, einen Logging Account für zentralisiertes Logging und einen Security Account für Auditing und Compliance.
-  - image: service-catalog.jpg
+  - image: console.png
     narration: >
-      Zurueck zum Beispiel. Das Team soll nun einen eigenen AWS Account bekommen.
-      Ist AWS Landing Zone in eurer Organization installiert, so passiert das Anlegen neuer Accounts ueber ein Produkt im sogenannten "Service Catalog".
-  - video: service-catalog.mov
+      Stellt euch vor, ein neues Team soll starten und schnellstmoeglich ein MVP am Markt testen.
+      Das Team soll nun einen eigenen AWS Account bekommen.
+      Das Anlegen neuer Accounts ueber ein Produkt im sogenannten "Service Catalog".
+  - image: service-catalog.png
     narration: >
-      Öffnet den "Service Catalog" und klickt auf "Products List". Wählt das "AWS-Landing-Zone-Account-Vending-Machine" Produkt aus.
+      Das Anlegen neuer Accounts erfolgt ueber ein Produkt im sogenannten "Service Catalog".
+  - image: product-list.png 
+    narration: >
+      Klickt auf "Products List". Wählt das "AWS-Landing-Zone-Account-Vending-Machine" Produkt aus.
       Nun klickt ihr auf "Launch Product".
       Gebt dem Account einen Namen, zum Beispiel "Team Awesome MVP" und drückt auf "next".
-
-
-
-      
-
-
+  - image: product-list2.png 
+    narration: >
+      Wählt das "AWS-Landing-Zone-Account-Vending-Machine" Produkt aus.
+  - image: launch-product.png 
+    narration: >
+      Nun klickt ihr auf "Launch Product".
+  - image: launch-product.png 
+    narration: >
+      Wählt unten die Radiobox aus. Gebt dem Account einen Namen, zum Beispiel "team-awesome-mvp" und drückt auf "next".
+  - image: parameters.png
+    narration: >
+      Jetzt öffnet sich ein Formular wo es verschiedene Parameter auszufüllen gilt.
