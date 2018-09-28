@@ -27,6 +27,8 @@ scenes:
     narration: >
       Das Anlegen neuer Accounts erfolgt ueber ein Produkt im sogenannten "Service Catalog".
   - image: product-list.png
+      Öffnet den "Service Catalog"
+  - image: product-list.png 
     narration: >
       Klickt auf "Products List".
   - image: product-list2.png
@@ -43,7 +45,7 @@ scenes:
       Jetzt öffnet sich ein Formular wo es verschiedene Parameter auszufüllen gilt.
   - image: parameters1.png
     narration: >
-      Im naechsten Schritt muss der Account Name noch einmal eingegeben werden, plus eine E-Mail-Adresse fuer den neuen Account. Weiterhin ordnet eine Orgnizational Unit zu.
+      Hier muss der Account Name noch einmal eingegeben werden, so wie eine E-Mail-Adresse für den neuen Account. Weiterhin ordnet eine Orgnizational Unit zu.
   - image: parameters2.png
     narration: >
       Unter "Network Information" koennt ihr noch einstellen, ob der neue Account eine VPC bekommen soll.
