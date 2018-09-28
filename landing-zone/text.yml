@@ -27,6 +27,7 @@ scenes:
     narration: >
       Das Anlegen neuer Accounts erfolgt ueber ein Produkt im sogenannten "Service Catalog".
   - image: product-list.png
+    narration: >
       Öffnet den "Service Catalog"
   - image: product-list.png 
     narration: >
